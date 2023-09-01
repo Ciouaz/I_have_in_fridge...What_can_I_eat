@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="org.example.MainPanel">
+  <grid id="27dc6" binding="mainPanel" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="758" height="748"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="3f4ad" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="-1" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-15253216"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="69b52" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Calibri Light" size="24"/>
+              <foreground color="-1"/>
+              <text value="CO ZJEŚĆ?"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="fd68c" layout-manager="GridLayoutManager" row-count="16" column-count="8" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="10" left="10" bottom="10" right="10"/>
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="1" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <opaque value="false"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="739f9" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Dodaj produkt:"/>
+            </properties>
+          </component>
+          <component id="e84de" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Usuń produkt"/>
+            </properties>
+          </component>
+          <component id="f12ed" class="javax.swing.JTextField" binding="tfAddProducts">
+            <constraints>
+              <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="6ecee" class="javax.swing.JComboBox" binding="cbDelete">
+            <constraints>
+              <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="4dbf4" class="javax.swing.JButton" binding="btnAdd">
+            <constraints>
+              <grid row="0" column="5" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Dodaj"/>
+            </properties>
+          </component>
+          <component id="da21d" class="javax.swing.JLabel" binding="lbProducts">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="14"/>
+              <text value="Masz w lodówce:"/>
+            </properties>
+          </component>
+          <vspacer id="6eca0">
+            <constraints>
+              <grid row="9" column="7" row-span="6" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+                <minimum-size width="-1" height="300"/>
+              </grid>
+            </constraints>
+          </vspacer>
+          <component id="7bf1e" class="javax.swing.JTextArea" binding="taProducts">
+            <constraints>
+              <grid row="1" column="0" row-span="14" col-span="1" vsize-policy="6" hsize-policy="0" anchor="1" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="100" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <editable value="false"/>
+              <font size="14"/>
+              <opaque value="false"/>
+            </properties>
+          </component>
+          <component id="a4d88" class="javax.swing.JLabel" binding="lbTitle">
+            <constraints>
+              <grid row="8" column="2" row-span="1" col-span="5" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="    "/>
+            </properties>
+          </component>
+          <hspacer id="b0309">
+            <constraints>
+              <grid row="15" column="2" row-span="1" col-span="4" vsize-policy="1" hsize-policy="4" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="500" height="-1"/>
+              </grid>
+            </constraints>
+          </hspacer>
+          <hspacer id="917eb">
+            <constraints>
+              <grid row="15" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="150" height="-1"/>
+                <preferred-size width="150" height="-1"/>
+                <maximum-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+          </hspacer>
+          <component id="d53f1" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="2" column="2" row-span="1" col-span="6" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="14"/>
+              <text value="Wybierz posiłek:"/>
+            </properties>
+          </component>
+          <component id="b120d" class="javax.swing.JButton" binding="btnBreakfast">
+            <constraints>
+              <grid row="3" column="2" row-span="1" col-span="6" vsize-policy="0" hsize-policy="1" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <focusable value="false"/>
+              <text value="Śniadanie"/>
+            </properties>
+          </component>
+          <component id="4dab6" class="javax.swing.JButton" binding="btnLunch">
+            <constraints>
+              <grid row="4" column="2" row-span="1" col-span="6" vsize-policy="0" hsize-policy="1" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <focusable value="false"/>
+              <text value="Obiad"/>
+            </properties>
+          </component>
+          <component id="274af" class="javax.swing.JButton" binding="btnBuyProducts">
+            <constraints>
+              <grid row="5" column="2" row-span="1" col-span="6" vsize-policy="0" hsize-policy="1" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <actionCommand value="Co dokupić?"/>
+              <focusable value="false"/>
+              <text value="Kolacja"/>
+            </properties>
+          </component>
+          <component id="acaf3" class="javax.swing.JButton" binding="btnDelete">
+            <constraints>
+              <grid row="1" column="5" row-span="1" col-span="3" vsize-policy="0" hsize-policy="1" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Usuń"/>
+            </properties>
+          </component>
+          <vspacer id="5c002">
+            <constraints>
+              <grid row="6" column="2" row-span="2" col-span="6" vsize-policy="0" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+                <preferred-size width="-1" height="10"/>
+              </grid>
+            </constraints>
+          </vspacer>
+          <scrollpane id="6deec">
+            <constraints>
+              <grid row="9" column="2" row-span="6" col-span="5" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="435c3" class="javax.swing.JTextArea" binding="taChatGPT">
+                <constraints/>
+                <properties>
+                  <editable value="false"/>
+                  <font size="14"/>
+                  <opaque value="false"/>
+                </properties>
+              </component>
+            </children>
+          </scrollpane>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
