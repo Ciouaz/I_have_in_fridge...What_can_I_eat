@@ -14,7 +14,7 @@ public class ChatGPTHelper {
     String question;
 
     public ChatGPTHelper() {
-        service = new OpenAiService("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", Duration.ofSeconds(30));
+        service = new OpenAiService("Here should be your OpenAI key :)", Duration.ofSeconds(30));
     }
 
     public String getMealIdea(List<String> products, String meal) {
