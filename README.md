@@ -6,3 +6,5 @@ Projekt wykorzystujący interfejs od OpenAI. Użytkownik przy pomocy graficznego
 Posiadane produkty są zapisywane w pliku .txt, więc bez problemu można zamknąć i mięc dostęp do nich następnym razem.
 
 Niestety, korzystanie z interfejsu od OpenAI jest płatne. W klasie ChatHelper należy podać klucz. Można go wykupić tutaj: platform.openai.com
+
+Link do prezentacji aplikacji: https://youtu.be/t-rVuPEcc5I
